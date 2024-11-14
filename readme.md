@@ -29,7 +29,13 @@ Esta es una API RESTful para la creación y gestión de usuarios. Está construi
 - **Swagger** - Para la documentación de la API
 - **ModelMapper** - Para mapear DTOs a entidades
 
+## Diagramas
 
+### componentes
+![Diagrama_componentes](diagrams/componentes.png)
+
+### Secuencia
+![Diagrama_secuencia](diagrams/diagrama_secuencia.png)
 
 ## Configuración
 
@@ -58,7 +64,7 @@ spring.datasource: Configuración de la base de datos H2 en memoria.
 
 ### Clonar el repositorio
 ```bash
-git clone https://github.com/your-repo/user-creator.git
+git clone https://github.com/uraken-5/UserCreator.git
 ```
 ## Compilar y ejecutar
 
@@ -107,7 +113,7 @@ Utiliza las credenciales predeterminadas en `application.properties` (`username=
 }
 ```
 
-# Documentación de Manejo de Errores y Estructura del Proyecto
+# Documentación de Manejo de Errores 
 
 ## 2. Manejo de Errores
 
